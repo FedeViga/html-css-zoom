@@ -5,11 +5,40 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 /* main */
 main {
+    position: relative;
     background-color: black;
     height: 100vh;
     padding: 80px;
+}
+
+.top-right {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+    padding: 5px;
+    gap: 5px;
+}
+
+.top-right .view {
+    
+    background-color: #4A4A4A;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.top-right .window {
+    background-color: #4A4A4A;
+    padding: 5px;
+    border-radius: 5px;
+
 }
 /* fine main */
 
@@ -26,10 +55,25 @@ main {
 
 /* webcam */
 .webcam {
-    background-color: green;
     height: 150px;
-    /* test */
     width: calc(100% / 7 - 6px / 7  * 6);
+    position: relative;
+}
+
+.webcam img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user {
+    background-color: #6b767f5b;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    padding: 5px;
 }
 /* fine webcam */
 
@@ -42,5 +86,6 @@ nav {
     width: 100%;
     position: fixed;
     bottom: 0;
+    z-index: 10;
 }
 /* fine nav */
