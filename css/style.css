@@ -4,3 +4,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* main */
+main {
+    background-color: black;
+    height: 100vh;
+    padding: 80px;
+}
+/* fine main */
+
+/* container */
+.container {
+    background-color: white;
+    /* test */
+    display: flex;
+    max-width: 1817px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 6px 0px;
+}
+/* fine container */
+
+/* webcam */
+.webcam {
+    background-color: green;
+    height: 150px;
+    /* test */
+    width: calc(100% / 7 - 6px / 7  * 6);
+}
