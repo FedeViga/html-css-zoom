@@ -15,8 +15,6 @@ main {
 
 /* container */
 .container {
-    background-color: white;
-    /* test */
     display: flex;
     max-width: 1817px;
     margin: auto;
@@ -33,3 +31,16 @@ main {
     /* test */
     width: calc(100% / 7 - 6px / 7  * 6);
 }
+/* fine webcam */
+
+/* nav */
+nav {
+    background-color: #222222;
+
+    /* test */
+    height: 78px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+/* fine nav */
