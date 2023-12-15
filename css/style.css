@@ -25,6 +25,7 @@ main {
     color: white;
     padding: 5px;
     gap: 5px;
+    font-size: 0.7em;
 }
 
 .top-right .view {
@@ -80,12 +81,46 @@ main {
 /* nav */
 nav {
     background-color: #222222;
-
-    /* test */
-    height: 78px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     position: fixed;
     bottom: 0;
     z-index: 10;
+    padding-left: 10px;
+}
+
+nav .left-bar,
+nav .center-bar,
+nav .right-bar {
+    display: flex;
+    gap: 10px;
+}
+
+nav .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav .description {
+    font-size: 0.8em;
+}
+nav .fa {
+    font-size: 1.5em;
+}
+
+nav .share .fa {
+    color: #4CCA00;
+}
+
+nav .right-bar {
+    background-color: #4A4A4A;
+    color: red;
+    align-items: center;
+    font-size: 0.8em;
+    padding: 30px 20px;
 }
 /* fine nav */
