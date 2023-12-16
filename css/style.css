@@ -32,9 +32,10 @@ body {
 main {
     background-color: black;
     height: calc(100vh - 50px - 75px);
-    padding: 80px;
+    /* padding: 80px;
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; */
+    padding: 30px 5px 10px 5px;
     overflow: auto;
     position: absolute;
     top: 50px;
@@ -58,18 +59,17 @@ main {
 /* container */
 .container {
     display: flex;
-    max-width: 1817px;
-    margin: auto;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 6px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
 }
 /* fine container */
 
 /* webcam */
 .webcam {
     height: 150px;
-    width: calc(100% / 7 - 6px / 7  * 6);
+    width: 254px;
     position: relative;
 }
 
